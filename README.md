@@ -1,2 +1,2 @@
 # metho-function
-Function extensions with Metho
+Function prototype extensions
