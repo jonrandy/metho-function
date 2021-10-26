@@ -1,2 +1,5 @@
 # metho-function
-Function prototype extensions
+Function prototype extensions:
+
+* curried
+* partial (alias for `curried`)

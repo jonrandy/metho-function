@@ -1,0 +1,38 @@
+{
+  "name": "metho-function",
+  "version": "0.0.1",
+  "description": "JavaScript Function prototype extensions using Metho",
+  "main": "metho-function.js",
+  "type": "module",
+  "module": "metho-function.js",
+  "sideEffects": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonrandy/metho-function.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "methods",
+    "object",
+    "syntax",
+    "metho",
+    "function",
+    "prototype",
+    "currying",
+    "curry",
+    "partial"
+  ],
+  "author": "Jon Randy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonrandy/metho-function/issues"
+  },
+  "homepage": "https://github.com/jonrandy/metho-function#readme",
+  "dependencies": {
+    "metho": "^0.0.3"
+  }
+}
