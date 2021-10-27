@@ -1,5 +1,5 @@
-import * as Metho from "../metho/metho.js"
-//import * as Metho from "metho"
+//import * as Metho from "../metho/metho.js"
+import * as Metho from "metho"
 
 const curryKey = Symbol('Curried function')
 
