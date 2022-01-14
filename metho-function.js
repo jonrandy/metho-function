@@ -8,7 +8,7 @@ const target = Function.prototype
 // Curried
 export const curried = Metho.add(
 	target,
-	function() {
+	function curried() {
 		return curry(this)
 	}
 )
