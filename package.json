@@ -1,6 +1,6 @@
 {
   "name": "metho-function",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript Function prototype extensions using Metho",
   "main": "metho-function.js",
   "type": "module",
@@ -33,6 +33,6 @@
   },
   "homepage": "https://github.com/jonrandy/metho-function#readme",
   "dependencies": {
-    "metho": "^0.0.3"
+    "metho": "^0.0.5"
   }
 }
