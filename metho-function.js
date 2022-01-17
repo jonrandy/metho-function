@@ -13,14 +13,10 @@ export const curried = Metho.add(
 	}
 )
 
-// Partial - alias for Curried
-export const partial = curried
-
 
 // generic currying function
 function curry(func) {
 	if (!func[curryKey]) {
-		console.log('curried created for ' + func.name)
 		func[curryKey] = function curried(...args) {
 			if (args.length >= func.length) {
 				return func.apply(this, args)
