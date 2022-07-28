@@ -1,6 +1,6 @@
 {
   "name": "metho-function",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JavaScript Function prototype extensions using Metho",
   "main": "metho-function.js",
   "type": "module",
@@ -24,7 +24,11 @@
     "prototype",
     "currying",
     "curry",
-    "partial"
+    "partial",
+    "memoise",
+    "memoize",
+    "memoisation",
+    "memoization"
   ],
   "author": "Jon Randy",
   "license": "MIT",
