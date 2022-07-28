@@ -10,6 +10,43 @@
 	<script type="module">
 		import * as mf from "./metho-function.js"
 		Object.assign(window, mf)
+
+
+function fibonacci(num) {
+  if (num <= 1) return 1;
+  const res=fibonacci(num - 1) + fibonacci(num - 2)
+  return res;
+}
+
+function jon(x) {
+	return x**x
+}
+
+let i,j
+console.time('normal')
+
+for(i=0;i<10000;i++) {
+	j=fibonacci(16)
+}
+console.log(j)
+console.timeEnd('normal')
+
+fibonacci = fibonacci[memoised]
+
+console.time('memo')
+
+for(i=0;i<10000;i++) {
+	j=fibonacci(16)
+}
+console.log(j)
+console.timeEnd('memo')
+
+
+// console.log(jon[memoised](3))
+// console.log(jon[memoized](4))
+// console.log(jon[memoised](3))
+
+
 	</script>
 
 </body>
